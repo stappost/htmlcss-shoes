@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Sometype Mono', monospace;;
+}
 /* CONTAINERS  */
 .container{
     width: 100%;
@@ -30,6 +32,7 @@
     color: yellow;
 }
 
+
 .text-green{
     color: green;
 }
@@ -38,4 +41,21 @@ h2{
     font-size: 80px;
     word-spacing: 30px;
     text-align: center;
+}
+.menu{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.menu span{
+    background-color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+.menu span a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik Mono One', monospace;
 }
