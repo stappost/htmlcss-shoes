@@ -18,6 +18,9 @@ body{
     left: 50%;
     transform: translate(-50% , -50%);
 }
+.content img{
+    width: 100%;
+}
 /* BG AND COLOR  */
 .bg_red{
     background-color: red;
@@ -31,8 +34,6 @@ body{
 .text-yellow{
     color: yellow;
 }
-
-
 .text-green{
     color: green;
 }
@@ -48,13 +49,11 @@ h2{
     right: 20px;
     z-index: 1;
 }
-.menu span{
+.menu  a{
     background-color: white;
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 50%;
-}
-.menu span a {
     text-decoration: none;
     color: black;
     font-family: 'Rubik Mono One', monospace;
